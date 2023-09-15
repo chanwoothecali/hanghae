@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: cali-hanghae-ecr           # set this to your Amazon ECR repository name
   ECS_SERVICE: cali-hanghae-application                 # set this to your Amazon ECS service name
   ECS_CLUSTER: cali-hanghae-cluster                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: cali-hanghae-task # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: cali-hanghae-task.json # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: cali-hanghae-container           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
