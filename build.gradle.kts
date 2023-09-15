@@ -12,8 +12,8 @@ plugins {
 	id("org.jlleitschuh.gradle.ktlint") version "11.1.0"
 }
 
-group = "hanghae99.plus2.team3"
-version = "0.0.1"
+group = "hanghae99.plus2"
+version = "0.0.1-SNAPSHOT"
 
 java {
 	sourceCompatibility = JavaVersion.VERSION_17
