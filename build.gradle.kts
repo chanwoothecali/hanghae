@@ -8,8 +8,6 @@ plugins {
 	kotlin("jvm") version "1.6.21"
 	kotlin("plugin.spring") version "1.6.21"
 	kotlin("plugin.jpa") version "1.6.21"
-
-	id("org.jlleitschuh.gradle.ktlint") version "11.1.0"
 }
 
 group = "hanghae99.plus2"
@@ -50,10 +48,6 @@ tasks {
 
 	named<Jar>("jar") {
 		enabled = false
-	}
-
-	ktlint {
-		verbose.set(true)
 	}
 }
 
